@@ -54,7 +54,6 @@ public class StudentsController {
         } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();
         }
-
         return "redirect:/displaylist";
     }
 
@@ -67,7 +66,6 @@ public class StudentsController {
         } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();
         }
-
         return "redirect:/displaylist";
     }
 
